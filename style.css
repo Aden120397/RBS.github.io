@@ -3,7 +3,7 @@ html{
 }
 
 .navbar-fixed-top{
-  background-color:rgba(255,255,255,.9) !important;
+  background-color:rgba(255,255,255,1) !important;
       border-color:transparent !important;
       background-image:none !important;
 
@@ -18,6 +18,9 @@ html{
 }
 
 
+.rbsLogo{
+  height:2em;
+}
 
 
 @media only screen and (max-width: 984px){
@@ -81,7 +84,7 @@ html{
 .landingPageText{
   color:white;
   position:absolute;
-  margin-top:35vh;
+  margin-top:4.5em;
   font-size:4em;
   font-weight:lighter;
   z-index:300 !important;
@@ -104,7 +107,7 @@ html{
 }
 
 .buttonSpacer{
-  height:0vh;
+  height:2em;
 }
 .appButton{
   margin-top:20em;
@@ -173,6 +176,15 @@ html{
   color:white;
 }
 
+.quoteBlock1{
+  background-color:#00b4cc;
+  width:100vw;
+  padding:10vh 5vh;
+  color:white;
+  padding-top:0;
+  margin-top:-3.25em;
+}
+
 .quoteText{
   font-weight:100;
   font-size:2.5em;
@@ -204,6 +216,7 @@ html{
   font-weight:200;
   font-size:3em;
   width:90vw;
+  padding-left:1.2em;
 }
 
 .what3{
@@ -225,9 +238,8 @@ html{
 
 .learnMore{
   color:#00b4cc;
-  padding:0 2em;
   font-size:1.25em;
-  margin-left:300px;
+  
 }
 
 .learnMore:hover{
@@ -237,6 +249,10 @@ html{
   border: black 3px;
 }
 
+.learnLink{
+  padding-left:2.75em;
+  padding-bottom:2em;
+}
 /*---Photo Divider----*/
 .photoDivider{
  height:60vh;
@@ -363,6 +379,7 @@ html{
 .imgcont{
  
   padding:auto;
+  padding-bottom:0;
 }
 
 .rbsHeader{
@@ -374,14 +391,18 @@ html{
   
 }
 
+.rbsHeader{
+  padding-left:1em;
+}
 .rbsTop{
- 
+ padding-left:1.25em;
 }
 
 .rbsSub{
   font-size:1.3em;
   font-weight:lighter;
   line-height:1.4em;
+  padding-left:1.45em;
 }
 .rbsOver{
   position:absolute;
@@ -412,8 +433,9 @@ html{
 }
 
 .contTitle{
-  font-size:1.25em;
-
+  font-size:1.45em;
+  padding-bottom:0;
+  padding-left:.5em;
 }
 
 
@@ -424,6 +446,9 @@ html{
 .contDescrip{
   font-size:1.5em;
   font-weight:lighter;
+  margin-top:-.5em;
+  padding-top:0;
+  
 }
 
 .scrollUp{
@@ -493,6 +518,18 @@ html{
   padding-top:1em;
  }
 
+.submitButton{
+  color:#00b4cc;
+  background-color:transparent;
+  outline: #00b4cc 2px solid;
+ 
+}
+
+.submitButton:hover{
+  color:white;
+  background-color:#00b4cc;
+  border-radius:0%;
+}
 
 @media only screen and (max-width: 968px){
  .contactInfo1, .t1{
