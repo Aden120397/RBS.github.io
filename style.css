@@ -12,9 +12,10 @@ html{
 
 
 .navLink{
-  color:black;
-  font-weight:lighter;
+  font-weight:300;
   padding-top:1vh;
+  
+  
 }
 
 
@@ -27,6 +28,7 @@ html{
 .navLink{
   padding:0vh;
   margin:0;
+   color:#00b4cc;
 }
   
   .navbar-brand{
@@ -35,6 +37,7 @@ html{
   .nav-item{
     margin-top:.25em;
     text-align:center;
+    color:#00b4cc;
   }
 }
 
@@ -98,6 +101,22 @@ html{
   outline:white;
 }
 
+.picSpacer{
+  height:15vh;
+}
+
+@media only screen and (max-width: 994px){
+ .picSpacer{
+  height:0;
+  }
+}
+
+.quoteCredit{
+  padding-top:1em;
+  height:.95em;
+  text-align:center;
+  font-weight:300;
+}
 .overlay{
   position:absolute;
   width:100vw; 
@@ -135,8 +154,10 @@ html{
  display: flex;
  margin: auto;
  padding:auto; 
-  
+ height:inherit;
+  width:inherit;
 }
+
 .introDivider{
   width:98%;
 }
@@ -176,6 +197,11 @@ html{
   color:white;
 }
 
+.test2{ 
+  padding:auto;
+  padding-bottom:0;
+  margin-bottom:0;
+}
 .quoteBlock1{
   background-color:#00b4cc;
   width:100vw;
@@ -222,8 +248,7 @@ html{
 .what3{
   font-weight:100;
   padding:0 2em;
-  font-size:2em;
-  width:100vw;
+  font-size:1.5em;
 }
 
 
@@ -319,7 +344,10 @@ html{
    color:#00b4cc;
 }
 
-
+.methodTexxt{
+  font-weight:100;
+  font-size:1em;
+}
 
 .whatSpacer2{
   height: .5vh;
@@ -556,4 +584,28 @@ html{
   padding-bottom:1vh;
   font-weight:lighter;
   font-size:.75em;
+}
+
+.eduPart{
+  text-align:center;
+  font-weight:400;
+}
+
+.appSub{
+ text-align:center;
+  font-weight:300;
+}
+.eduPartButton{
+  background:transparent; 
+  color:white;
+  outline:2px white solid;
+  font-weight:lighter;
+  margin-top:.5em;
+  margin:auto;
+}
+
+.eduPartButton:hover{
+  background:white;
+  color:#00b4cc;
+  border-radius:0;
 }
