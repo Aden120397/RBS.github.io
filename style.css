@@ -89,7 +89,7 @@ html{
   position:absolute;
   margin-top:4.5em;
   font-size:4em;
-  font-weight:lighter;
+  font-weight:300;
   z-index:300 !important;
   text-align:center;
   width:100vw;
