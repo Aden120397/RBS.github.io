@@ -75,7 +75,7 @@ html{
   z-index:20;
   height:95vh;
   width:100vw;
-  background:url("http://rbsgps.com/Content/images/ron-brown-scholar-bg.jpg");
+  background:url("https://www.ronbrown.org/Media/Default/Page/RonBrownScholarProgram-41.jpg");
     /* Center and scale the image nicely */
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -93,6 +93,7 @@ html{
   z-index:300 !important;
   text-align:center;
   width:100vw;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
 }
 
 .colorBut{
@@ -122,7 +123,7 @@ html{
   width:100vw; 
   height:95vh;
   z-index:30;
-  background-color:rgba(0,0,0,.3);
+  background-color:rgba(0,0,0,.2);
 }
 
 .buttonSpacer{
@@ -135,6 +136,7 @@ html{
   color:white;
   font-weight:100;
   transition: 60s ease all;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.09);
   
 }
 
@@ -220,8 +222,8 @@ html{
 /*-- What is section--*/
 
 .whatRow{
-  padding:8vh;
-  margin-top:3em;
+  
+  background-color: #FCFCFC;
 }
 
 .whatisDivider{
@@ -230,7 +232,8 @@ html{
 }
 .whatSSC{
   font-size:3.5em;
-  text-transform: uppercase;
+  margin-left:10px;
+  padding-left:0;
   font-weight: 200;
 }
 
@@ -240,7 +243,7 @@ html{
 
 .what2{
   font-weight:200;
-  font-size:3em;
+  font-size:2.25em;
   width:90vw;
   padding-left:1.2em;
 }
@@ -282,8 +285,8 @@ html{
 .photoDivider{
  height:60vh;
   width:100vw;
-  background: url('http://rbsgps.com/Content/images/ron-brown-scholar-bg.jpg');
-    background-position: center center
+  background: url(' http://rbsgps.com/Content/images/ron-brown-scholar-bg.jpg');
+    background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -297,6 +300,10 @@ html{
  bottom:2em;
   max-width:80vw;
   padding:5vh;
+}
+
+.imgCaptionSec{
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
 }
 
 /*---Approach Section----*/
@@ -318,6 +325,7 @@ html{
 
 .methodHead{
   text-align:left;
+  font-weight:300;
 }
 
 .whatRow{
