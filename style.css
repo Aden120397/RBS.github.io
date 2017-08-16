@@ -1,21 +1,19 @@
 html{
-  overflow-x:hidden;
+  overflow-x:hidden !important;
 }
+
+body, html { overflow-x:hidden; }
 
 .navbar-fixed-top{
   background-color:rgba(255,255,255,1) !important;
-      border-color:transparent !important;
-      background-image:none !important;
+  border-color:transparent !important;
+  background-image:none !important;
 
 }
 
-
-
 .navLink{
   font-weight:300;
-  padding-top:1vh;
-  
-  
+  padding-top:1vh;  
 }
 
 
@@ -41,59 +39,63 @@ html{
   }
 }
 
-/*--Nav topping--*/
-
-.navTopping{
-  background-color:transparent;
-  color:black;
-  position:fixed;
-  padding: 0 1.25em;
-  padding-top:5px;
-  z-index:
-}
-
-.fbIm{
-  height:1em;
-  padding: 0 2px;
-}
-
-@media only screen and (max-width: 970px) {
-  .navTopping{
-    height:0;
-  }
-}
-
-.contactUs{
-  font-weight:100;
-  display:inline;
-  color:gray;
-}
 
 
 
 .landingPage{
   z-index:20;
   height:95vh;
-  width:100vw;
-  background:url("https://www.ronbrown.org/Media/Default/Page/RonBrownScholarProgram-41.jpg");
+  width:100%;
+  background:url("https://www.ronbrown.org/Media/Default/HtmlWidget/Contents/Item/Display/7/RonBrownScholarProgram-Home04.jpg");
     /* Center and scale the image nicely */
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center center;
-    display:flex;
+background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
 }
+
+@media only screen and (max-width: 767px) {
+  .landingPage{
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url('https://www.ronbrown.org/Media/Default/Page/RonBrownScholarProgram-12.jpg');
+    background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+  }
+}
+
 
 .landingPageText{
   color:white;
   position:absolute;
-  margin-top:4.5em;
-  font-size:4em;
-  font-weight:200;
+  bottom:1.8em;
+  font-size:3.8em;
+  font-weight:300;
   z-index:300 !important;
-  text-align:center;
-  width:100vw;
-  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+  width:100%;
+  text-align:right !important;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
+  padding-right:.2em;
+}
+
+
+.landingPageSub{
+  position:absolute;
+  color: white;
+  z-index:300 !important;
+  bottom:2em;
+  font-style:italic;
+  font-weight:100;
+  text-align:right;
+  width:100%;
+  font-size:1.8em;
+  padding-right:1em;
 }
 
 .colorBut{
@@ -120,10 +122,10 @@ html{
 }
 .overlay{
   position:absolute;
-  width:100vw; 
+  width:100%; 
   height:95vh;
   z-index:30;
-  background-color:rgba(0,0,0,.2);
+  background-color:rgba(0,0,0,.3);
 }
 
 .buttonSpacer{
@@ -135,8 +137,8 @@ html{
   outline: white 2px solid;
   color:white;
   font-weight:100;
-  transition: 60s ease all;
   text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.09);
+  margin-right:25%;
   
 }
 
@@ -158,6 +160,7 @@ html{
  padding:auto; 
  height:inherit;
   width:inherit;
+  max-width:100%;
 }
 
 .introDivider{
@@ -195,7 +198,7 @@ html{
 .quoteBlock{
   background-color:#00b4cc;
   width:100vw;
-  padding:10vh 5vh;
+  padding:10vh 10px;
   color:white;
 }
 
@@ -616,4 +619,89 @@ html{
   background:white;
   color:#00b4cc;
   border-radius:0;
+}
+
+
+html{
+  overflow-x:hidden !important;
+}
+
+.partnerLink{
+  color:white; 
+  
+}
+
+.partnerLink:hover{
+  text-decoration:none;
+  color:#00b4cc;
+}
+
+
+.partnerLink:clicked{
+  color:white;
+}
+
+.partnerLink:visited{
+  color:white;
+}
+
+.partnerLink:visited:hover{
+  color: #00b4cc;
+}
+
+.partnerLink:active{
+  color:white;
+}
+
+
+@media only screen and (max-width: 984px){
+  .rbsTop{
+    padding:0;
+  }
+  .rbsSub{
+    padding:0;
+  }
+  .what3{
+    padding:0;
+  }
+  
+  h3>what2{
+    padding:0;
+    margin:0!important;
+  }
+  
+  .whatISSC{
+    margin:0;
+  }
+  .mobileFix {
+  text-align:center !important;
+   padding: .3em 1.3em;
+  }
+  hr{
+    width:0;
+  }
+}
+  
+@media only screen and (max-width:696px){
+  .imgcont{height:0;}
+  .rbsOver{
+    position:absolute;
+    z-index:-2000;
+    height:0;
+  }
+  .learnLink{
+    padding:0;
+  }
+}
+
+@media only screen and (max-width:825px){
+  .landingPageSub{
+    color:transparent;
+  }
+  
+  .landingPageText{
+    bottom:.3;
+    width:100%;
+    font-size:3.2em;
+  }
 }
